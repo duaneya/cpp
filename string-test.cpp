@@ -3,7 +3,8 @@
 using namespace std;
 int main()
 {
-    String s1();
+    String s1;
+    // String s1(); 实际上声明了一个叫做s1的函数,返回值类型String
     String s2("hello");
     String s3(s1); //拷贝构造, 没写的话默认一个bit一个bit复制,有指针的不合适
     //String s3 = s1; 作用同上
