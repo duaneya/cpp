@@ -13,7 +13,7 @@ private:
     // {
     //     std::cout << "constructor called!" << std::endl;
     // }
-    A(const A &rhs) = default;
+    A(const A &rhs) = delete;
     ;
 };
 A &A::getInstance()
