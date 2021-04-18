@@ -1,8 +1,4 @@
-#include <iostream>
-#include <string>
-using std::cin;
-using std::cout;
-using std::endl;
+#include "io.h"
 
 int main()
 {
@@ -13,5 +9,5 @@ int main()
     int l;
     cin >> l;
 
-    cout <<  "是" << l * 220 << "码" << endl;
+    cout <<  "是 " << l * 220 << " 码" << endl;
 }
